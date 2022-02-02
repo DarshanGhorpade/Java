@@ -1,3 +1,5 @@
+// Concatenate 2 strings using + operator
+
 public class question2
 {
 	public static void main(String[] args) {
