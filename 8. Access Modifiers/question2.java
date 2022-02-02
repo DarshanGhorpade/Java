@@ -16,12 +16,11 @@ class A
 // question1.java
 
 package p1;
-public class question1 {
-    public static void main(String args[]) {
+public class question1{
+    public static void main(String[] args){
         A obj = new A();
-        
-        obj.count = 0;
-        
+	obj.count = 0;
         obj.display();
+	System.out.println("Count = "+obj.count);
     }// End main
 }//End question1 class
