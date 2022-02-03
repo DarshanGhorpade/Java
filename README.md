@@ -1,2 +1,2 @@
 # Java
-Java assignments
+Java Tutorials
