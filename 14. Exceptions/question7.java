@@ -8,7 +8,7 @@ class question7 {
             System.out.println(data);    
         }    
         //catch won't be executed  
-        catch(NullPointerException e){  
+        catch(Exception e){  
             System.out.println(e);  
         }    
         //executed regardless of exception occurred or not  
