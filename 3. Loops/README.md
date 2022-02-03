@@ -1,5 +1,5 @@
 
-                                                                      3. Loops
+                                                                    3. Loops
 
   1. Write a program to print “Bright IT Career” ten times using for loop
   2. Write a java program to print 1 to 20 numbers using the while loop.
