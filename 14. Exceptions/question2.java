@@ -1,6 +1,4 @@
 // 2. Handle the Arithmetic exception using try-catch block
-
-// Java program to demonstrate NullPointerException
 class question2 {
 public static void main(String args[]){
       try {
