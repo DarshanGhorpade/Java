@@ -1,4 +1,4 @@
-                                                                   **1. JAVA Basics**
+                                                                **1. JAVA Basics**
 
   1. How to create a class, object, method and its signature
   2. Write a program to print your name.
