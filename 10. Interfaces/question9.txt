@@ -1,0 +1,52 @@
+// 9. Create a PRIVATE or PROTECTED interface and print the values as above scenario
+
+Interface in Java is similar to class but, it contains only abstract methods and fields which are final and static.
+
+Since all the methods are abstract you cannot instantiate it. To use it, you need to implement this interface using a class and provide body to all the abstract methods int it.
+
+Private members of an interface
+If the members of the interface are private you cannot provide implementation to the methods or, cannot access the fields of it in the implementing class.
+
+Therefore, the members of an interface cannot be private. If you try to declare the members of an interface private, a compile time error is generated saying “modifier private not allowed here”.
+
+Example
+In the following Java example, we are trying to declare the field and method of an interface private.
+
+public interface MyInterface {
+   private static final int num = 10;
+   private abstract void demo();
+}
+Compile time error
+On compiling, the above program generates the following error.
+
+Output
+MyInterface.java:2: error: modifier private not allowed here
+   private static final int num = 10;
+                        ^
+MyInterface.java:3: error: modifier private not allowed here
+   private abstract void demo();
+                             ^
+2 errors
+Protected members of an interface
+In general, the protected members can be accessed in the same class or, the class inheriting it. But, we do not inherit an interface we will implement it.
+
+Therefore, the members of an interface cannot be protected. If you try to declare the members of an interface protected, a compile time error is generated saying “modifier protected not allowed here”.
+
+Example
+In the following Java example, we are trying to declare the field and method of an interface protected.
+
+public interface MyInterface{
+   private static final int num = 10;
+   private abstract void demo();
+}
+Compile time error
+On compiling, the above program generates the following error.
+
+Output
+MyInterface.java:2: error: modifier private not allowed here
+   private static final int num = 10;
+^
+MyInterface.java:3: error: modifier private not allowed here
+   private abstract void demo();
+^
+2 errors
