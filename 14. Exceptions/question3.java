@@ -1,6 +1,5 @@
 // 3. Write a method which throws exception, Call that method in main class without try block
 
-// Java program to demonstrate NullPointerException
 class question3 {
     public static int div(int a, int b) throws ArithmeticException{
         return a/b;
