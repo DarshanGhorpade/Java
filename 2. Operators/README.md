@@ -1,5 +1,5 @@
 
-                                                                      2. Operators
+                                                                     2. Operators
 
   1. Write a function for arithmetic operators(+,-,*,/)
   2. Write a method for increment and decrement operators(++, --)
