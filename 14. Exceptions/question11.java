@@ -4,7 +4,7 @@
 import java.io.File;
 import java.io.FileReader;
 
-public class Myclass{ 
+public class question11{ 
     //main method is called
     public static void main(String args[]){
         try{
